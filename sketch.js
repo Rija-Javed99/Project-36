@@ -14,21 +14,19 @@ function setup() {
   createCanvas(1000,400);
 
   foodObj = new Food();
-
-  foodStock=database.ref('Food');
-  foodStock.on("value",readStock);
+//create food stock , dog, feed, and button to add the food
+ 
   
-  dog=createSprite(800,200,150,150);
-  dog.addImage(sadDog);
-  dog.scale=0.15;
   
-  feed=createButton("Feed the dog");
-  feed.position(700,95);
-  feed.mousePressed(feedDog);
-
-  addFood=createButton("Add Food");
-  addFood.position(800,95);
-  addFood.mousePressed(addFoods);
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 }
 
